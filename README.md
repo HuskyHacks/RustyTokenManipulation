@@ -6,6 +6,8 @@ just manipulatin these here tokens yes sir nothing weird
 $ cargo build --target x86_64-pc-windows-gnu
 ```
 ## CreateProcessWithLogonW
+This API call takes WCSTR username, domain, and password values to make a process with the new token.
+
 ```
 Token impersonation
 
